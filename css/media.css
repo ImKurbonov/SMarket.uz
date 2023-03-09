@@ -1,0 +1,125 @@
+/* ===== MEDIA FOR MIDDLE DESKTOPS AND TABLETS ===== */
+@media screen and (max-width: 992px) {
+    .lang-section {
+        margin-right: 1rem;
+    }
+
+    .title {
+        font-size: 2.7rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .form-btn {
+        font-size: 1rem;
+        padding: 0.8rem;
+        width: 100%;
+    }
+
+    .socials {
+        justify-content: space-around;
+    }
+
+    .socials a {
+        padding: 0.9rem 1.2rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+/* ===== MEDIA FOR TABLETS ===== */
+@media screen and (max-width: 768px) {
+    .site-header {
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .site-logo {
+        margin-bottom: 20px;
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .form-container {
+        column-gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .socials {
+        justify-content: space-between;
+    }
+
+    .socials a {
+        width: 45%;
+    }
+}
+
+/* ===== MEDIA FOR MOBILE DEVISES ===== */
+@media screen and (max-width: 576px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .site-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .site-logo {
+        margin-bottom: 0;
+    }
+
+    .site-logo span {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 0.7rem;
+    }
+
+    .login a:first-child, .lang-section {
+        display: none;
+    }
+
+    .nav {
+        width: inherit;
+    }
+
+    .form-container {
+        grid-template-columns: 1fr;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .socials a {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .socials a:first-child {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .site-logo span {
+        display: none;
+    }
+}
