@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMarket.uz</title>
+    <!-- Normolize css -->
+    <link rel="stylesheet" href="css/normolize.css">
     <!-- Shared css -->
     <link rel="stylesheet" href="css/shared.css">
     
@@ -19,8 +21,10 @@
     <div class="container">
         <header id="site-header" class="site-header">
             <div class="site-logo">
-                <img src="images/logo-img.svg" alt="">
+                <a href="index.html">
+                    <img src="images/logo-img.svg" alt="">
                 <span>SMarket</span>
+                </a>
             </div>
             <nav class="nav">
                 <div class="lang-section">
@@ -28,7 +32,7 @@
                     <img src="images/arrow.svg" alt="Arrow">
                 </div>
                 <div class="login">
-                    <a href="#">Tizimga kirish</a>
+                    <a href="stystem/index.html">Tizimga kirish</a>
                     <a href="#">Ro'yhatdan o'tish</a>
                 </div>
             </nav>
@@ -40,18 +44,18 @@
         <!-- ===== START FORM SECTION ===== -->
         <form action="https://www.htmlacademy.com" id="form" class="form-container">
             <label for="name">
-                <input id="name" class="name-input" type="text" placeholder="Foydalanuvchi nomi">
+                <input id="name" class="name-input" type="text" placeholder="Foydalanuvchi nomi" required>
                 <img src="images/user.svg" alt="">
             </label>
             <label for="email">
-                <input id="email" class="email-input" type="email" placeholder="E-pochta manzili">
+                <input id="email" class="email-input" type="email" placeholder="E-pochta manzili" required>
                 <img src="images/email.svg" alt="">
             </label>
             <label for="password">
-                <input id="password" class="password-input" type="password" placeholder="Parol">
+                <input id="password" class="password-input" type="password" placeholder="Parol" required>
                 <img src="images/eye.svg" alt="">
             </label>
-            <button class="form-btn">Sign Up</button>
+            <button class="form-btn" type="submit">Sign Up</button>
         </form>
         <!-- ===== END FORM SECTION ===== -->
 
