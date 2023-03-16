@@ -231,6 +231,20 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.button {
+    background-color: var(--color-skyblue);
+    border-radius: 12px;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto;
+    padding: 23px;
+    max-width: 313px;
+    width: 100%;
+}
 /* ===== END GLOBAL STYLES ====== */
 
 /* ===== START SITE HEADER ====== */
@@ -353,4 +367,12 @@ body {
     line-height: 1.95rem;
     padding: 1.25rem 0;
     width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    text-align: center;
 }

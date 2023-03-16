@@ -18,6 +18,14 @@
     .title {
         font-size: 3rem; 
     }
+
+    .film-title {
+        font-size: 2rem;
+    }
+
+    .film-item {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 1400px) {
@@ -37,6 +45,25 @@
 
     .treaty-text {
         font-size: 2rem;
+    }
+
+    .films-nav {
+        flex-direction: column;
+    }
+
+    .film-title, .film-list {
+        border-radius: 73px !important;
+        width: 100% !important;
+    }
+
+    .film-list {
+        justify-content: center;
+    }
+
+    .film-title {
+        margin-right: 0 !important;
+        margin-bottom: 30px;
+        text-align: center;
     }
 }
 
