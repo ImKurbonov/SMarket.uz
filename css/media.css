@@ -266,6 +266,7 @@
 
     .film-title {
         font-size: 1.5rem;
+        text-align: center;
     }
 
     .bars {
@@ -276,6 +277,5 @@
 @media screen and (max-width: 410px) {
     .film-title {
         line-height: 50px;
-        text-align: center;
     }
 }
