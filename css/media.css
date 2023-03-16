@@ -1,3 +1,4 @@
+/* ===== MEDIA FOR LARGE DEVICES ===== */
 @media screen and (max-width: 1740px) {
     .list .item:nth-child(6) {
         display: none;
@@ -106,6 +107,30 @@
         font-size: 0.8rem;
         text-align: center;
     }
+
+    .films-nav {
+        background: linear-gradient(269.96deg, #2E312F 5.52%, rgba(83, 219, 238, 0) 124.53%);
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .film-title {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .film-list {
+        display: none;
+    }
+    
+
+    .bars {
+        display: block;
+    }
 }
 
 /* ===== MEDIA FOR TABLETS ===== */
@@ -126,6 +151,10 @@
         width: 100%;
     }
 
+    .subtitle {
+        font-size: 1.2rem;
+    }
+
     .list .item:nth-child(1) {
         display: block;
     }
@@ -142,7 +171,12 @@
     .socials a {
         width: 45%;
     }
+
+    .film-title {
+        font-size: 1.6rem;
+    }
 }
+
 
 /* ===== MEDIA FOR MOBILE DEVISES ===== */
 @media screen and (max-width: 576px) {
@@ -176,7 +210,7 @@
     }
 
     .subtitle {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .login a:first-child, .lang-section {
@@ -228,5 +262,20 @@
 
     .info {
         flex-direction: column;
+    }
+
+    .film-title {
+        font-size: 1.5rem;
+    }
+
+    .bars {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .film-title {
+        line-height: 50px;
+        text-align: center;
     }
 }
