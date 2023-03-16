@@ -234,10 +234,41 @@ body {
 /* ===== END GLOBAL STYLES ====== */
 
 /* ===== START SITE HEADER ====== */
-
 .site-header {
     padding-top: 50px;
     margin-bottom: 75px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+    padding-top: 19px;
+}
+
+.top span {
+    color: #999999;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 56px;
+    margin-right: 10px;
+}
+
+.top-socials a:not(:last-child) {
+    margin-right: 21px;
+}
+/* ===== END TOP SECTION ===== */
+
+.item {
+    margin-right: 17px;
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .site-header span {
